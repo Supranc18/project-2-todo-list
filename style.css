@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.addtask{
+    margin-top: 50px;
+    padding: 20px;
+    max-width: 90%;
+    margin: 40px;
+    background-color: rgb(237, 237, 237);
+    align-items: center;
+    gap: 20px;
+    border-radius:5px;
+    border: 3px solid rgb(121, 121, 252);
+    display: none;
+}
+.add{
+    display: flex;
+    justify-content: space-between;
+}
+.add button{
+    border-radius:5px;
+    background-color:rgb(186, 186, 252);
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+.addclose{
+    margin-top: 10px;
+    
+}
+.addclose button{
+    width: 50px;
+    background-color:rgb(186, 186, 252);
+    border: 2px solid rgb(121, 121, 252);
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ .date{
+    width: 150px;
+}
+.contain input{
+    padding: 10px;
+    border-radius: 5px;
+}
+.main{
+    max-width: 90%;
+    margin: 40px;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius:5px;
+    border: 3px solid rgb(121, 121, 252);
+}
+.task button{
+    max-width: 300px;
+    padding: 8px;
+    display: flex;
+    gap: 80px;
+    border-radius:5px;
+    background-color:rgb(186, 186, 252);
+    border: none;
+    cursor: pointer;
+}
+#error{
+    color: red;
+}
+.notebox{
+    width: 95%;
+    border: 3px solid rgb(121, 121, 252);
+    background-color:rgb(186, 186, 252);
+    padding: 5px;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
