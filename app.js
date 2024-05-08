@@ -50,7 +50,7 @@ const storedata = ()=>{
         <button ><i onClick="deletedata(this)" class="fa-regular fa-trash-can"></i></button>
     </div>
     </div>
-    <hr>`
+    `
 }
 
 // delete data
@@ -83,6 +83,8 @@ const addbox =()=> {
 // the is for closing add new task section
 const closebox=()=> {
     document.querySelector(".addtask").style.display="none";
-    document.querySelector(".main").style.display="flex"; 
+    document.querySelector(".main").style.display="flex";
+    
     
 }
+console.log(closebox())
